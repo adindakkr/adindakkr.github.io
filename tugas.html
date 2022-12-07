@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    h6 {
+        margin-left: 150px;
+    }
+
+    h3,
+    .judul {
+        text-align: center;
+    }
+
+    .musicplaylist {
+        height: 40%;
+        width: 40%;
+    }
+
+    #musicplaylistflex {
+        display: flex;
+    }
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pengenalan Bootstrap</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    <script src=""></script>
+</head>
+
+<body>
+    <div class="container">
+    </div>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <a href="#" class="navbar-brand">Adinda Website</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#profil" class="nav-link">Profil</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#musicplaylist" class="nav-link">Music Playlist</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="jumbotron">
+        <h1>Adinda Kurnia Rifanti</h1>
+        <p>Saya adalah seorang mahasiswi semester 3 Politeknik Negeri Malang jurusan Teknologi Informasi, prodi Teknik
+            Informatika, NIM 2141720100. Saat ini saya sedang menyelesaikan tugas dan tugas besar semester 3, kemudian
+            liburan semester. </p>
+    </div>
+    </div>
+    <div id="profil">
+        <h1 class="judul">Biodata</h1><br>
+        <img id="profile" src="profil.jpeg" class="rounded-circle mx-auto d-block" style="height: 250px; width: 250px;"
+            alt="profil"><br>
+        <h6>Nama: Adinda Kurnia Rifanti</h6>
+        <h6>TTL: Probolinggo, 9 Juni 2003</h6>
+        <h6>Alamat: Jl. Dr Saleh No.16</h6>
+        <h6>Usia: 19 Tahun</h6>
+        <h6>Hobi: Memasak, Travelling</h6>
+    </div>
+    <br>
+    <hr>
+    <hr>
+    <div id="musicplaylist"><br>
+        <h1 class="judul">Music Playlist</h1><br>
+        <img src="paul.jpg" class="rounded mx-auto d-block music" alt="paul">
+        <br>
+        <h3>Paul Partohap</h3>
+        <h5></h5><br><br><br>
+        <img src="tulus.jpg" class="rounded mx-auto d-block music" alt="tulus">
+        <br>
+        <h3>Tulus</h3><br><br><br>
+        <img src="hindia.jpg" class="rounded mx-auto d-block music" alt="hindia">
+        <br>
+        <h3>Hindia</h3><br><br><br>
+        <img src="arditho.jpg" class="rounded mx-auto d-block music" alt="arditho">
+        <br>
+        <h3>Ardhito Pramono</h3><br>
+    </div>
+</body>
+
+</html>
